@@ -1,1 +1,23 @@
+A 3-tier architecture divides an application into three distinct layers: 
+the presentation tier (user interface), the application tier (business logic), and the data tier (data storage and retrieval). 
+This architecture promotes modularity, maintainability, scalability, and flexibility in software development. 
+Here's a more detailed breakdown of each tier:
 
+1. Presentation Tier:
+----------------------
+This tier focuses on the user interface and how it interacts with users. 
+It handles displaying information and gathering user input. 
+
+Examples: Web pages, mobile apps, desktop applications. 
+
+2. Application Tier:
+---------------------
+This tier contains the core business logic of the application. 
+It processes data, implements business rules, and coordinates interactions between the presentation and data tiers. 
+Examples: APIs, services, controllers.
+
+3. Data Tier:
+--------------
+This tier is responsible for storing and managing application data. 
+It includes the database or file system where data is stored, as well as the data access layer (DAL) that interacts with the database. 
+Examples: Databases, file systems, data access objects. 
